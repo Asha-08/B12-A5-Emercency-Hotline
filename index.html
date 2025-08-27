@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency Hotline</title>
+    <!-- daisyUi -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!-- Tailwind cdn -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- font awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="">
+    <!-- navbar section -->
+   <section>
+    <nav class="flex justify-between border-2 border-red-600 min-h-[100px] flex-col md:flex-row items-center px-10 ">
+        <div class="flex gap-2.5 items-center">
+            <img src="assets/logo.png" class="w-[50px] h-[50px]" alt="">
+            <div>
+                <h3 class="text-2xl font-bold text-[#006747] ">Emergency <br>Service</h3>
+
+            </div>
+        </div>
+        <div class="border-2 border-green-400 flex gap-5 justify-center items-center m-5">
+           
+            <li class="inline-flex border-2 rounded-[10px] px-3 bg-[#c4f4c9]"><span class="text-2xl font-bold ">0</span><img src="assets/heart.png" class="w-[30px]" alt="">
+            </li>
+
+            <li class="inline-flex border-2 rounded-[10px] px-3 bg-[#c4f4c9]"><span class="text-2xl font-bold ">100</span><img src="assets/coin.png" class="w-[30px]" alt="">
+            </li>
+            
+            <li class="inline-flex border-2 rounded-[10px] px-3 bg-[#103f15] text-2xl text-white"><span class="text-2xl font-bold ">0</span>Copy
+            </li>
+            
+
+        </div>
+    </nav>
+   </section>
+   <!-- banner section -->
+    <section class="min-h-[200px] border-2 bg-green-950 py-8">
+        <div class="">
+            <div class="flex justify-center">
+                <img src="assets/logo-dark.png" class="w-[50px] " alt="">
+            </div>
+            <h1 class="text-white text-2xl font-bold text-center">Emergency Service directory</h1>
+            <p class="text-white text-center">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+        </div>
     
+    </section>
 </body>
 </html>
